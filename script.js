@@ -3,11 +3,11 @@ let hrs = today.getHours();
 let greet;
 
 if (hrs < 12) {
-    greet = 'Good Morning.';
+    greet = 'Good Morning';
 } else if (hrs >= 12 && hrs < 17) {
-    greet = 'Good Afternoon.';
+    greet = 'Good Afternoon';
 } else {
-    greet = 'Good Evening.';
+    greet = 'Good Evening';
 }
 
 document.getElementById('widget').innerHTML = greet;
