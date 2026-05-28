@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400&display=swap');
+
 * {
-    font-family: 'Roboto', sans-serif;
-    color: #9f6b53;
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    color: #000000;
     text-align: center;
 }
 
@@ -11,19 +14,17 @@ body {
 }
 
 #widget {
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
     font-size: xx-large;
-    padding: 5px;
     text-align: center;
     line-height: 1.5;
     height: 85%;
-    border: 5px solid #9f6b53;
-    border-radius: 10px;
+    border: none;
     width: fit-content;
     margin: 10px;
     padding: 10px;
 }
 
-#today{
+#today {
     font-size: large;
 }
